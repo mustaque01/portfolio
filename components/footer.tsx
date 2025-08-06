@@ -1,6 +1,6 @@
 "use client"
 
-import { Github, Linkedin, Mail, Heart } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Footer() {
@@ -36,12 +36,6 @@ export function Footer() {
               <Mail className="h-5 w-5" />
             </Button>
           </div>
-        </div>
-
-        <div className="border-t mt-8 pt-8 text-center">
-          <p className="text-muted-foreground flex items-center justify-center gap-2">
-            Made with <Heart className="h-4 w-4 text-red-500" /> MD MUSTAK
-          </p>
         </div>
       </div>
     </footer>
