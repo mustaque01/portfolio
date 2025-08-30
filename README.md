@@ -26,16 +26,28 @@ pnpm dev
 
 Visit http://localhost:3000
 
+### Environment Variables
+Copy `.env.example` to `.env.local` and fill in values as needed.
+
 ### Deployment
-Build output (not committed):
+Build & start:
 ```powershell
 pnpm build
+pnpm start
 ```
+Recommended: Vercel (import the GitHub repo, framework auto-detect).
+
+### SEO / Metadata
+Configured in `app/layout.tsx` (Open Graph + Twitter). Replace `your-domain.example.com` and social handle.
 
 ### Notes
 The `.next` folder is intentionally ignored. If you previously tracked it, a cleanup commit removed those files.
 
 ### Next Steps
-- Add SEO metadata (Open Graph, social preview)
-- Add a blog or writing section
-- Configure analytics (e.g. Vercel, Plausible)
+- Add blog/articles section
+- Integrate analytics (Vercel / Plausible)
+- Add contact form backend endpoint
+- Add light technical blog posts for SEO
+
+### License
+MIT – see `LICENSE`.
