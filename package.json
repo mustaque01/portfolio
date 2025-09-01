@@ -1,12 +1,6 @@
 {
-  "name": "portfolio",
+  "name": "my-v0-project",
   "version": "0.1.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mustaque01/portfolio.git"
-  },
-  "homepage": "https://your-domain.example.com",
   "private": true,
   "scripts": {
     "build": "next build",

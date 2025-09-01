@@ -7,40 +7,40 @@ import Image from "next/image"
 export function Projects() {
   const projects = [
     {
-      title: "Personal Portfolio Website",
+      title: "Airbnb Clone",
       description:
-        "A responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark theme, and mobile-first design approach.",
-      image: "/placeholder.svg?height=200&width=400",
-      technologies: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "A full-featured Airbnb clone with property listings, booking system, user authentication, and payment integration. Features responsive design and real-time updates.",
+      image: "/ProjectsImage/airbnb-original.jpg",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe", "Socket.io"],
+      liveUrl: "https://airbnb-clone-demo.vercel.app",
+      githubUrl: "https://github.com/mustaque01/airbnb-clone",
     },
     {
-      title: "Task Management App",
+      title: "ATLAS - Data Visualization Platform",
       description:
-        "A feature-rich todo application with CRUD operations, local storage persistence, drag-and-drop functionality, and team collaboration features.",
-      image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "An advanced data visualization and analytics platform with interactive charts, real-time data processing, and comprehensive dashboard for business intelligence.",
+      image: "/ProjectsImage/ATLAS.jpg",
+      technologies: ["React", "D3.js", "Python", "FastAPI", "PostgreSQL", "Redis"],
+      liveUrl: "https://atlas-analytics.vercel.app",
+      githubUrl: "https://github.com/mustaque01/atlas-platform",
     },
     {
-      title: "Weather Dashboard",
+      title: "Mental Health Support App",
       description:
-        "A responsive weather application that provides current weather data and forecasts with beautiful visualizations and location-based services.",
-      image: "/placeholder.svg?height=200&width=400",
-      technologies: ["React", "API Integration", "CSS3", "Responsive Design"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "A comprehensive mental health support application with mood tracking, meditation guides, therapist booking, and community support features for mental wellness.",
+      image: "/ProjectsImage/mentalhealth.jpg",
+      technologies: ["React Native", "Firebase", "Node.js", "AI/ML", "WebRTC", "Push Notifications"],
+      liveUrl: "https://mentalhealth-app.vercel.app",
+      githubUrl: "https://github.com/mustaque01/mental-health-app",
     },
     {
-      title: "Restaurant Landing Page",
+      title: "Pawsitivity - Pet Care Platform",
       description:
-        "A modern, responsive landing page for a restaurant with smooth scrolling, image gallery, contact form integration, and online reservation system.",
-      image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "A complete pet care management platform with vet appointments, pet profiles, health tracking, grooming services, and pet community features.",
+      image: "/ProjectsImage/Pawsitivity.jpg",
+      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS", "NextAuth"],
+      liveUrl: "https://pawsitivity.vercel.app",
+      githubUrl: "https://github.com/mustaque01/pawsitivity",
     },
   ]
 
